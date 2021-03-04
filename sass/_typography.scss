@@ -1,0 +1,23 @@
+@import 'variables';
+
+html,
+body {
+    font-family: $base-font-family;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: $header-font-family;
+    margin: $main-spacing 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: $main-spacing 0;
+}
+
+p {
+    margin-bottom: $main-spacing 0;
+    line-height: 1.5;
+}
